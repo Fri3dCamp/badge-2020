@@ -1,0 +1,157 @@
+Altium Designer Pick and Place Locations
+C:\Users\Wim\CloudStation\Electronics\Fri3D_2020_01\.\OUTPUT\Pick Place\Pick Place for Fri3D_2020_01.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       25/03/20
+Time:       17:16
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment                                                   Layer       Footprint               Center-X(mil) Center-Y(mil) Rotation Description                
+T7         "-2.3A -20V P-Ch MOSFET Vgs -1V"                          TopLayer    SOT23-3                 1417.323      1972.441      180      =Description               
+T103       "0.2A N-Ch MOSFET Vgs 3.2"                                TopLayer    SOT23-3                 2086.614      1287.401      180      ""                         
+T102       "0.2A N-Ch MOSFET Vgs 3.2"                                TopLayer    SOT23-3                 1929.134      1405.512      180      ""                         
+R111       RESISTOR                                                  TopLayer    R0603_N                 1929.137      1299.216      360      ""                         
+R110       RESISTOR                                                  TopLayer    R0603_N                 2086.611      1181.099      180      ""                         
+R109       RESISTOR                                                  TopLayer    R0603_N                 2086.611      1393.697      180      ""                         
+R108       RESISTOR                                                  TopLayer    R0603_N                 1929.131      1511.808      180      ""                         
+P105       "Header 4"                                                TopLayer    HDR1X4                  2009.881      1079.474      130      ""                         
+P104       "Header 4"                                                TopLayer    HDR1X4                  2009.881      1630.655      130      ""                         
+P103       "Header 2"                                                TopLayer    HDR1X2                  -1043.307     3779.528      90       ""                         
+J102       "XKB U254-051T-4BH81-S2S Micro USB"                       BottomLayer XKB_U254-051T-4BH81-S2S 2065.354      2903.346      270      ""                         
+U102       "USB to full UART with internal crystal"                  TopLayer    SOIC_N_16               1988.189      3346.457      360      =Description               
+U101       "3V3 LDO 700mA 50mV"                                      TopLayer    SOT23-5                 1574.803      3641.732      180      =Designator                
+U100       "Single Cell LiIon charger max 1A"                        TopLayer    SOIC_N_8_TH             -1584.646     3750.000      90       =Description               
+T101       "0.2A N-Ch MOSFET Vgs 3.2"                                BottomLayer SOT23-3                 1683.071      3750.000      90       ""                         
+T100       "0.2A N-Ch MOSFET Vgs 3.2"                                BottomLayer SOT23-3                 1535.433      3750.000      270      ""                         
+SW101      SW_1P2T                                                   TopLayer    WE_450404015514         1259.842      3708.661      180      ""                         
+SW100      SW_1P2T                                                   TopLayer    WE_450404015514         -2068.898     3287.402      90       ""                         
+R107       RESISTOR                                                  TopLayer    R0603_N                 1929.137      3110.239      360      ""                         
+R106       RESISTOR                                                  TopLayer    R0603_N                 1929.137      2637.798      360      ""                         
+R105       RESISTOR                                                  TopLayer    R0603_N                 -2007.871     2657.483      360      ""                         
+R104       RESISTOR                                                  TopLayer    R0603_N                 -1919.288     3159.446      270      ""                         
+R103       RESISTOR                                                  TopLayer    R0603_N                 -1919.294     3287.405      90       ""                         
+R102       RESISTOR                                                  TopLayer    R0603_N                 -1919.288     3415.351      270      ""                         
+R101       RESISTOR                                                  TopLayer    R0603_N                 -1761.808     3688.973      270      ""                         
+R100       RESISTOR                                                  TopLayer    R0603_N                 -1917.320     3533.468      360      ""                         
+P102       "Header 6"                                                TopLayer    HDR1X6                  1603.543      3877.953      180      ""                         
+P101       "Header 1.0mm RA Shrouded 5"                              BottomLayer WE_665105131822         1185.532      3779.528      90       ""                         
+P100       "Header 2.0mm Shrouded 2"                                 TopLayer    WE_620102131822         -1050.197     3779.528      90       ""                         
+J101       "USB 2.0 C Reversible Receptacle Horizontal"              TopLayer    HRO_TYPE-C-31-M-12      2017.716      2874.016      90       ""                         
+J100       "USB 2.0 C Reversible Receptacle Horizontal"              TopLayer    HRO_TYPE-C-31-M-12      -2017.716     2893.701      270      ""                         
+D102       "Default 0805 Green LED"                                  TopLayer    LED_0805_GR             -2055.118     3533.465      360      =Description               
+D101       "Default 0805 Red LED"                                    TopLayer    LED_0805_RD             -1761.811     3826.772      270      =Description               
+C105       ""                                                        TopLayer    C0603_N                 1811.020      3287.405      270      "Capacitor Ceramic"        
+C104       CAP_CERAMIC                                               TopLayer    C0603_N                 1466.532      3641.735      270      "Capacitor Ceramic"        
+C103       ""                                                        TopLayer    C0603_N                 2106.302      3622.044      90       "Capacitor Ceramic"        
+C102       CAP_CERAMIC                                               TopLayer    C0805_N                 1692.913      3641.732      270      "Capacitor Ceramic"        
+C101       CAP_CERAMIC                                               TopLayer    C0805_N                 -1427.165     3828.740      270      "Capacitor Ceramic"        
+C100       CAP_CERAMIC                                               TopLayer    C0805_N                 -1427.165     3671.260      90       "Capacitor Ceramic"        
+D1         "WS2812 based digital RGB LED 5050 Black package"         TopLayer    LED_5050_WS2812B_BLACK  0.000         3385.827      90       =Description               
+T4         "0.2A N-Ch MOSFET Vgs 3.2"                                TopLayer    SOT23-3                 836.614       1230.315      360      ""                         
+T6         "-2.3A -20V P-Ch MOSFET Vgs -1V"                          TopLayer    SOT23-3                 1417.323      1661.417      180      =Description               
+R28        RESISTOR                                                  TopLayer    R0603_N                 836.617       1112.208      360      ""                         
+R20        RESISTOR                                                  TopLayer    R0603_N                 836.617       1338.586      360      ""                         
+R19        RESISTOR                                                  TopLayer    R0603_N                 659.446       1151.578      90       ""                         
+R18        RESISTOR                                                  TopLayer    R0603_N                 718.501       1151.578      90       ""                         
+R27        NTC                                                       BottomLayer R0402                   0.000         1299.213      180      ""                         
+R26        RESISTOR                                                  TopLayer    R0603_N                 915.351       1003.934      180      ""                         
+R25        RESISTOR                                                  TopLayer    R0603_N                 915.351       944.879       180      ""                         
+R21        RESISTOR                                                  TopLayer    R0603_N                 915.357       885.830       360      ""                         
+P3         "Header 1.0mm RA Shrouded 5"                              BottomLayer WE_665105131822         1539.862      3078.740      270      ""                         
+P2         "Header 1.0mm RA Shrouded 4"                              BottomLayer WE_665104131822         295.276       3401.083      360      ""                         
+C6         ""                                                        BottomLayer C0603_N                 255.909       3248.028      180      "Capacitor Ceramic"        
+R33        RESISTOR                                                  TopLayer    R0603_N                 452.759       541.335       270      ""                         
+R34        RESISTOR                                                  TopLayer    R0603_N                 417.320       507.871       180      ""                         
+P7         "MicroBit PCB connector"                                  TopLayer    MicroBIT_PCB            0.000         196.850       360      ""                         
+R6         RESISTOR                                                  TopLayer    R0603_N                 1147.641      1850.397      0        ""                         
+P1         "Bottom contact FPC 0.3mm pitch 15 contacts"              TopLayer    FPC_AFE03-S15FMA-1H     1230.315      2017.716      270      ""                         
+U8         "DW01-P single cell lithium protection"                   TopLayer    SOT23-6                 -1328.740     1161.417      360      =Description               
+T5         "Dual N-Ch MOSFET Common Drain"                           TopLayer    TSSOP_8_65P             -1545.275     1151.575      270      =Description               
+R31        ""                                                        TopLayer    R0603_N                 -1545.272     1151.572      270      ""                         
+R30        RESISTOR                                                  TopLayer    R0603_N                 -1368.113     1043.304      180      ""                         
+R29        RESISTOR                                                  TopLayer    R0603_N                 -1210.633     1082.680      90       ""                         
+C22        ""                                                        TopLayer    C0603_N                 -1210.627     1220.469      90       "Capacitor Ceramic"        
+BAT1       "18650 Battery holder with spring"                        BottomLayer BAT_18650_SPRING        9.843         1299.213      360      =Description               
+BUZ1       "12x12x3mm Piezo Buzzer Transducer 81dB"                  TopLayer    CUI_CMT-1203-SMT        0.000         1486.221      270      "Crystal Oscillator"       
+C7         ""                                                        TopLayer    C0603_N                 187.011       816.926       90       "Capacitor Ceramic"        
+C8         ""                                                        TopLayer    C0603_N                 -1574.800     3011.814      180      "Capacitor Ceramic"        
+C9         ""                                                        TopLayer    C0603_N                 -1515.745     3169.288      90       "Capacitor Ceramic"        
+C10        CAP_CERAMIC                                               TopLayer    C0805_N                 -1594.488     3169.291      90       "Capacitor Ceramic"        
+C11        ""                                                        TopLayer    C0603_N                 1033.461      2992.123      360      "Capacitor Ceramic"        
+C12        CAP_CERAMIC                                               TopLayer    C0805_N                 1033.465      2923.228      180      "Capacitor Ceramic"        
+D14        "TVS Diode Dual USB"                                      TopLayer    NXP_SOT457              866.142       3149.606      90       =Description               
+D2         "WS2812 based digital RGB LED 5050 Black package"         TopLayer    LED_5050_WS2812B_BLACK  -1181.102     1535.433      90       =Description               
+D3         "WS2812 based digital RGB LED 5050 Black package"         TopLayer    LED_5050_WS2812B_BLACK  -393.701      1535.433      90       =Description               
+D4         "WS2812 based digital RGB LED 5050 Black package"         TopLayer    LED_5050_WS2812B_BLACK  393.701       1535.433      90       =Description               
+D5         "WS2812 based digital RGB LED 5050 Black package"         TopLayer    LED_5050_WS2812B_BLACK  1181.102      1535.433      90       =Description               
+D6         "IRM-3638N3F14 Infrared Receiver 38 kHz 45° 2.7-5.5V"     TopLayer    VIS_TSOP381x_BENT       0.000         787.402       360      =Description               
+D7         "Default 0805 Red LED"                                    TopLayer    LED_0805_RD             0.000         649.606       90       =Description               
+D8         "Default 0805 Red LED"                                    TopLayer    LED_0805_RD             1614.173      2992.126      180      =Description               
+D9         "Default 0805 Green LED"                                  TopLayer    LED_0805_GR             1614.173      3090.551      180      =Description               
+D10        "Default 0805 Green LED"                                  TopLayer    LED_0805_GR             1614.173      3188.976      180      =Description               
+J1         "3.5mm jack, dual switch, black, 3 contacts"              BottomLayer CUI_SJ1-3525NG          1545.276      2647.638      180      =Description               
+J2         "USB 2.0 C Reversible Receptacle Horizontal"              TopLayer    HRO_TYPE-C-31-M-12      728.346       3385.827      180      ""                         
+MOD1       "ESP-32 based ESP-WROVER-32"                              TopLayer    ESP-WROVER-32           -1082.677     2729.488      360      "WiFi # MOD ESP-WROVER-32" 
+P5         "Easy to solder connection"                               TopLayer    SOLDER_SW_V_1MM         -1574.803     2775.590      180      ""                         
+P4         "Header 2.0mm Shrouded 2"                                 BottomLayer WE_620102131822         1266.732      1429.134      90       ""                         
+R32        RESISTOR                                                  TopLayer    R0603_N                 -1574.800     2952.759      360      ""                         
+R35        RESISTOR                                                  TopLayer    R0603_N                 1220.469      2795.272      180      ""                         
+R36        RESISTOR                                                  TopLayer    R0603_N                 1220.476      2854.334      360      ""                         
+R37        RESISTOR                                                  TopLayer    R0603_N                 964.570       3307.083      270      ""                         
+R38        RESISTOR                                                  TopLayer    R0603_N                 492.129       3307.083      270      ""                         
+R1         RESISTOR                                                  TopLayer    R0603_N                 -314.957      1328.737      270      ""                         
+R4         RESISTOR                                                  TopLayer    R0603_N                 -314.964      1190.948      90       ""                         
+R5         RESISTOR                                                  TopLayer    R0603_N                 -216.532      984.255       360      ""                         
+R7         RESISTOR                                                  TopLayer    R0603_N                 1614.170      2923.225      180      ""                         
+R8         RESISTOR                                                  TopLayer    R0603_N                 -1574.800     3070.869      360      ""                         
+R13        RESISTOR                                                  TopLayer    R0603_N                 64.964        649.603       270      ""                         
+R14        RESISTOR                                                  TopLayer    R0603_N                 1476.375      2992.123      180      ""                         
+R15        RESISTOR                                                  TopLayer    R0603_N                 1476.375      3090.548      180      ""                         
+R16        RESISTOR                                                  TopLayer    R0603_N                 1476.375      3188.973      180      ""                         
+SW2        SW_TACT                                                   TopLayer    WE_430181038816         -787.402      1535.433      0        ""                         
+SW4        SW_1P2T                                                   TopLayer    WE_450404015514         1675.197      2204.724      270      ""                         
+T1         "0.2A N-Ch MOSFET Vgs 3.2"                                TopLayer    SOT23-3                 -216.535      1102.362      360      ""                         
+T2         "0.2A N-Ch MOSFET Vgs 3.2"                                TopLayer    SOT23-3                 1328.740      2992.126      180      ""                         
+T3         "0.2A N-Ch MOSFET Vgs 3.2"                                TopLayer    SOT23-3                 1328.740      3149.606      360      ""                         
+U4         "USB to UART 3.3-5V"                                      TopLayer    QFN_24                  1082.677      3149.606      360      =Description               
+C15        CAP_CERAMIC                                               TopLayer    C0805_N                 1226.378      3110.236      90       "Capacitor Ceramic"        
+SW3        SW_TACT                                                   TopLayer    WE_430181038816         787.402       1535.434      0        ""                         
+SW1        SW_1P2T                                                   TopLayer    WE_450404015514         1675.197      1840.551      270      ""                         
+C5         CAP_CERAMIC                                               TopLayer    C0603_N                 -1338.580     1535.430      90       "Capacitor Ceramic"        
+D13        MBRA210LT3G                                               TopLayer    SMA_AC                  1425.197      1807.087      180      =Description               
+U3         =Comment                                                  TopLayer    AHT10                   314.961       984.252       180      =Description               
+C3         ""                                                        TopLayer    C0603_N                 187.005       1003.940      270      "Capacitor Ceramic"        
+U5         "Single Cell LiIon charger max 1A"                        TopLayer    SOIC_N_8_TH             1102.362      1161.417      90       =Description               
+U7         "3V3 LDO 700mA 50mV"                                      TopLayer    SOT23-5                 1062.992      2401.575      180      =Designator                
+U6         "3V3 LDO 700mA 50mV"                                      TopLayer    SOT23-5                 1062.992      2578.740      180      =Designator                
+U1         LIS2DH12                                                  TopLayer    STM_LGA12_2x2           314.961       777.559       270      =Description               
+U2         "Encryption Authentication with 72b SN, SHA-256, AES-128" TopLayer    SOIC_N_8                393.701       1250.000      270      =Description               
+TP1        TEST_PAD                                                  TopLayer    TP_0.8mm                413.386       787.402       90       ""                         
+R24        RESISTOR                                                  TopLayer    R0603_N                 1476.375      1535.430      180      ""                         
+R23        RESISTOR                                                  TopLayer    R0603_N                 1476.375      1437.005      180      ""                         
+R22        RESISTOR                                                  TopLayer    R0603_N                 1102.365      964.570       360      ""                         
+R17        RESISTOR                                                  TopLayer    R0603_N                 -1092.516     1082.674      270      ""                         
+R12        RESISTOR                                                  TopLayer    R0603_N                 -1151.578     1082.680      90       ""                         
+R11        RESISTOR                                                  TopLayer    R0603_N                 1131.887      2952.759      90       ""                         
+R10        RESISTOR                                                  TopLayer    R0603_N                 482.280       1033.461      180      ""                         
+R9         RESISTOR                                                  TopLayer    R0603_N                 482.280       974.406       180      ""                         
+R3         RESISTOR                                                  TopLayer    R0603_N                 413.383       698.822       90       ""                         
+R2         RESISTOR                                                  TopLayer    R0603_N                 472.438       698.822       90       ""                         
+P6         "Receptacle 3x2"                                          TopLayer    RCPT2X3                 1642.913      1161.417      90       ""                         
+D11        "Default 0805 Red LED"                                    TopLayer    LED_0805_RD             1614.173      1535.433      180      =Description               
+D12        "Default 0805 Green LED"                                  TopLayer    LED_0805_GR             1614.173      1437.008      180      =Description               
+C17        CAP_CERAMIC                                               TopLayer    C0805_N                 1255.446      1240.107      270      "Capacitor Ceramic"        
+C16        CAP_CERAMIC                                               TopLayer    C0805_N                 1255.446      1082.627      90       "Capacitor Ceramic"        
+C21        CAP_CERAMIC                                               TopLayer    C0603_N                 944.885       2401.572      90       "Capacitor Ceramic"        
+C20        CAP_CERAMIC                                               TopLayer    C0603_N                 1181.106      2401.572      90       "Capacitor Ceramic"        
+C19        CAP_CERAMIC                                               TopLayer    C0603_N                 944.885       2578.737      90       "Capacitor Ceramic"        
+C18        CAP_CERAMIC                                               TopLayer    C0603_N                 1181.106      2578.737      90       "Capacitor Ceramic"        
+C14        CAP_CERAMIC                                               TopLayer    C0805_N                 875.984       2972.441      360      "Capacitor Ceramic"        
+C13        ""                                                        TopLayer    C0603_N                 895.673       3041.342      180      "Capacitor Ceramic"        
+C4         ""                                                        TopLayer    C0603_N                 1230.318      2185.043      180      "Capacitor Ceramic"        
+C2         ""                                                        TopLayer    C0603_N                 314.964       688.980       180      "Capacitor Ceramic"        
+C1         ""                                                        TopLayer    C0603_N                 531.499       1161.414      90       "Capacitor Ceramic"        
