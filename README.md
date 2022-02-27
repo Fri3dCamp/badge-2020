@@ -19,6 +19,7 @@ Moved away from the Adafruit Feather compatible expansion header in favor for th
 ![Badge 01](media/Badge_01_BACK_noBG.png)
 
 ![Badge 01 GameOn](media/Badge_01_GameOn.jpg)
+Test fit of the badge with the first protoype of the [GameOn](https://github.com/Fri3dCamp/gameon-2020)
 
 
 ## REV 02
