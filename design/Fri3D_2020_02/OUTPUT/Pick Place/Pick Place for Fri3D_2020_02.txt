@@ -1,0 +1,131 @@
+Altium Designer Pick and Place Locations
+C:\Users\Wim\SynologyDrive\Drive\Electronics\Fri3D_2020_02\.\OUTPUT\Pick Place\Pick Place for Fri3D_2020_02.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       07/01/22
+Time:       23:19
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment                                                               Layer       Footprint              Center-X(mil) Center-Y(mil) Rotation Description                               
+P9         "Molex Picoblade SMD RA 532610771"                                    BottomLayer MLX_53261-0771         -950.787      748.032       90       ""                                        
+P8         "Receptacle 5 SMD Type 2"                                             BottomLayer WE_61000513321         527.362       2540.945      90       ""                                        
+P5         "Receptacle 4 SMD Type 2"                                             BottomLayer WE_61000413321         -635.630      2590.945      90       ""                                        
+MOD2       "MH-Z19C CO2 Sensor TH Pins"                                          BottomLayer WIN_MH-Z19x-PH         -7621.972     -5642.167     180      "Winsen MH-Z19x-PH series of CO2 sensors" 
+C1         CAP_CERAMIC                                                           BottomLayer C0805_N                -482.284      2785.433      90       "Capacitor Ceramic"                       
+R47        RESISTOR                                                              BottomLayer R0603_N                1830.713      1643.701      45       ""                                        
+R46        RESISTOR                                                              BottomLayer R0603_N                2155.515      1879.918      0        ""                                        
+R4         RESISTOR                                                              BottomLayer R0603_N                2155.509      1820.869      180      ""                                        
+D15        "ZIRM-5042B-42-Z2 Infrared Receiver 38 kHz 45° 2.7-5.5V 940nm"        TopLayer    CHAU_ZIRM-5042B-42-Z2  0.000         1072.835      0        =Description                              
+P1         "Bottom contact FPC 0.3mm pitch 15 contacts"                          BottomLayer FPC_AFE03-S15FMA-1H    344.488       2017.716      270      ""                                        
+R45        RESISTOR                                                              BottomLayer R0603_N                2129.925      2460.627      0        ""                                        
+R44        RESISTOR                                                              BottomLayer R0603_N                2196.854      2460.627      0        ""                                        
+T8         "0.2A N-Ch MOSFET Vgs 3.2"                                            BottomLayer SOT23-3                -78.740       1968.504      90       ""                                        
+R43        RESISTOR                                                              BottomLayer R0603_N                68.894        1938.980      180      ""                                        
+R42        RESISTOR                                                              BottomLayer R0603_N                -187.005      1968.507      90       ""                                        
+R41        RESISTOR                                                              BottomLayer R0603_N                -2037.405     1692.910      270      ""                                        
+R40        RESISTOR                                                              BottomLayer R0603_N                -2096.460     1692.910      270      ""                                        
+R39        RESISTOR                                                              BottomLayer R0603_N                -994.098      2578.737      270      ""                                        
+T7         "-2.3A -20V P-Ch MOSFET Vgs -1V"                                      BottomLayer SOT23-3                -1663.386     1722.441      180      =Description                              
+D1         "WS2812 based digital RGB LED 5050 Black package"                     TopLayer    LED_5050_WS2812B_BLACK -846.457      531.496       180      =Description                              
+T4         "0.2A N-Ch MOSFET Vgs 3.2"                                            BottomLayer SOT23-3                -610.236      2303.149      270      ""                                        
+T6         "-2.3A -20V P-Ch MOSFET Vgs -1V"                                      BottomLayer SOT23-3                -1653.544     1574.803      90       =Description                              
+R28        RESISTOR                                                              BottomLayer R0603_N                -501.972      2303.146      270      ""                                        
+R20        RESISTOR                                                              BottomLayer R0603_N                -1919.295     1210.627      270      ""                                        
+R19        RESISTOR                                                              BottomLayer R0603_N                -2175.197     1259.838      315      ""                                        
+R18        RESISTOR                                                              BottomLayer R0603_N                -442.910      2303.153      90       ""                                        
+R27        NTC                                                                   BottomLayer R0402                  -19.685       1358.268      0        ""                                        
+R26        RESISTOR                                                              BottomLayer R0603_N                -1919.295     1377.950      270      ""                                        
+R25        RESISTOR                                                              BottomLayer R0603_N                -1978.350     1377.949      270      ""                                        
+R21        RESISTOR                                                              BottomLayer R0603_N                -1929.131     1476.375      0        ""                                        
+P3         "Header 1.0mm RA Shrouded 5"                                          BottomLayer WE_665105131822        -2233.520     1475.005      102      ""                                        
+P2         "Header 1.0mm RA Shrouded 4"                                          BottomLayer WE_665104131822        -1031.131     2919.206      45       ""                                        
+C6         ""                                                                    BottomLayer C0603_N                -885.822      2789.370      225      "Capacitor Ceramic"                       
+R33        RESISTOR                                                              BottomLayer R0603_N                416.142       482.283       0        ""                                        
+R34        RESISTOR                                                              BottomLayer R0603_N                483.071       482.283       0        ""                                        
+P7         "MicroBit PCB connector"                                              TopLayer    MicroBIT_V2_PCB        0.000         196.850       0        ""                                        
+R6         RESISTOR                                                              BottomLayer R0603_N                68.894        1998.035      180      ""                                        
+U8         "DW01-P single cell lithium protection"                               BottomLayer SOT23-6                1771.653      1161.417      270      =Description                              
+T5         "Dual N-Ch MOSFET Common Drain"                                       BottomLayer TSSOP_8_65P            1614.173      1161.417      270      =Description                              
+R31        ""                                                                    BottomLayer R0603_N                1614.170      1161.414      270      ""                                        
+R30        RESISTOR                                                              BottomLayer R0603_N                1732.287      1358.271      90       ""                                        
+R29        RESISTOR                                                              BottomLayer R0603_N                1879.918      1171.256      270      ""                                        
+C22        ""                                                                    BottomLayer C0603_N                1771.657      1043.304      180      "Capacitor Ceramic"                       
+BAT1       "18650 Battery holder with spring"                                    BottomLayer BAT_18650_SPRING       -31.419       1466.613      180      =Description                              
+BUZ1       "12x12x3mm Piezo Buzzer Transducer 81dB"                              BottomLayer CUI_CMT-1203-SMT       984.252       2608.268      90       "Crystal Oscillator"                      
+C7         ""                                                                    BottomLayer C0603_N                68.901        915.351       180      "Capacitor Ceramic"                       
+C8         ""                                                                    BottomLayer C0603_N                492.123       2982.287      0        "Capacitor Ceramic"                       
+C9         ""                                                                    BottomLayer C0603_N                423.225       3149.603      90       "Capacitor Ceramic"                       
+C10        CAP_CERAMIC                                                           BottomLayer C0805_N                501.969       3139.764      90       "Capacitor Ceramic"                       
+C11        ""                                                                    BottomLayer C0603_N                -2086.611     2244.098      270      "Capacitor Ceramic"                       
+C12        CAP_CERAMIC                                                           BottomLayer C0805_N                -2017.717     2234.252      90       "Capacitor Ceramic"                       
+D14        "TVS Diode Dual USB"                                                  BottomLayer NXP_SOT457             -2047.244     2549.213      180      =Description                              
+D2         "WS2812 based digital RGB LED 5050 Black package"                     TopLayer    LED_5050_WS2812B_BLACK -423.228      531.496       180      =Description                              
+D3         "WS2812 based digital RGB LED 5050 Black package"                     TopLayer    LED_5050_WS2812B_BLACK 0.000         531.496       180      =Description                              
+D4         "WS2812 based digital RGB LED 5050 Black package"                     TopLayer    LED_5050_WS2812B_BLACK 423.228       531.496       180      =Description                              
+D5         "WS2812 based digital RGB LED 5050 Black package"                     TopLayer    LED_5050_WS2812B_BLACK 846.457       531.496       180      =Description                              
+D6         "IRM-3638N3F14 Infrared Receiver 38 kHz 45° 2.7-5.5V"                 TopLayer    VIS_TSOP381x_BENT      0.000         1003.937      0        =Description                              
+D7         "Default 0805 Red LED"                                                BottomLayer LED_0805_RD            0.000         807.087       90       =Description                              
+D8         "Default 0805 Red LED"                                                BottomLayer LED_0805_RD            -2519.685     2175.197      135      =Description                              
+D9         "Default 0805 Green LED"                                              BottomLayer LED_0805_GR            -2578.740     2352.362      90       =Description                              
+D10        "Default 0805 Green LED"                                              BottomLayer LED_0805_GR            -2490.157     2509.843      45       =Description                              
+J1         "3.5mm jack, dual switch, black, 3 contacts"                          BottomLayer CUI_SJ1-3525NG         2134.398      1375.944      146      =Description                              
+J2         "USB 2.0 C Reversible Receptacle Horizontal"                          BottomLayer HRO_TYPE-C-31-M-12     -2211.834     2759.886      60       ""                                        
+MOD1       "ESP-32 based ESP-WROVER-32"                                          BottomLayer ESP-WROVER-32          0.000         2729.488      180      "WiFi # MOD ESP-WROVER-32"                
+P4         "Header 2.0mm Shrouded 2"                                             BottomLayer WE_620102131822        -1286.418     1230.315      270      ""                                        
+R35        RESISTOR                                                              BottomLayer R0603_N                1875.943      1600.353      45       ""                                        
+R36        RESISTOR                                                              BottomLayer R0603_N                1968.508      1692.913      45       ""                                        
+R37        RESISTOR                                                              BottomLayer R0603_N                -2234.253     2480.319      150      ""                                        
+R38        RESISTOR                                                              BottomLayer R0603_N                -1972.437     2775.592      60       ""                                        
+R1         RESISTOR                                                              BottomLayer R0603_N                1033.461      2942.917      180      ""                                        
+R5         RESISTOR                                                              BottomLayer R0603_N                846.460       3051.184      90       ""                                        
+R7         RESISTOR                                                              BottomLayer R0603_N                -2175.200     1870.082      180      ""                                        
+R8         RESISTOR                                                              BottomLayer R0603_N                492.123       3041.342      180      ""                                        
+R13        RESISTOR                                                              BottomLayer R0603_N                -68.901       915.357       180      ""                                        
+R14        RESISTOR                                                              BottomLayer R0603_N                -2470.472     2224.405      315      ""                                        
+R15        RESISTOR                                                              BottomLayer R0603_N                -2509.846     2352.359      270      ""                                        
+R16        RESISTOR                                                              BottomLayer R0603_N                -2440.950     2460.630      225      ""                                        
+SW2        SW_TACT                                                               BottomLayer WE_430181038816        1181.102      2106.299      90       ""                                        
+SW4        SW_1P2T                                                               BottomLayer WE_450404015514        -2362.466     1841.303      282      ""                                        
+T1         "0.2A N-Ch MOSFET Vgs 3.2"                                            BottomLayer SOT23-3                954.724       3051.181      90       ""                                        
+T2         "0.2A N-Ch MOSFET Vgs 3.2"                                            BottomLayer SOT23-3                -2017.716     1968.504      90       ""                                        
+T3         "0.2A N-Ch MOSFET Vgs 3.2"                                            BottomLayer SOT23-3                -2175.197     1968.504      270      ""                                        
+U4         "USB to UART 3.3-5V"                                                  BottomLayer QFN_24                 -2244.095     2244.095      270      =Description                              
+C15        CAP_CERAMIC                                                           BottomLayer C0805_N                -2204.724     2086.614      180      "Capacitor Ceramic"                       
+SW3        SW_TACT                                                               BottomLayer WE_430181038816        -452.756      738.189       270      ""                                        
+SW1        SW_1P2T                                                               BottomLayer WE_450404015514        2360.857      1850.394      78       ""                                        
+C5         CAP_CERAMIC                                                           BottomLayer C0603_N                88.579        521.650       90       "Capacitor Ceramic"                       
+D13        MBRA210LT3G                                                           BottomLayer SMA_AC                 -1801.181     1653.543      90       =Description                              
+U3         "WSEN-HIDS 2525020210001 temperature and humidity sensor Digital I2C" BottomLayer WE_2525020210001       -1188.976     2763.780      315      =Description                              
+C3         ""                                                                    BottomLayer C0603_N                -1236.220     2688.981      315      "Capacitor Ceramic"                       
+U5         "Single Cell LiIon charger max 1A"                                    BottomLayer SOIC_N_8_TH            -1771.657     1289.370      270      =Description                              
+U7         "3V3 LDO 700mA 50mV"                                                  BottomLayer SOT23-5                -915.354      2066.929      90       =Designator                               
+U6         "3V3 LDO 700mA 50mV"                                                  BottomLayer SOT23-5                -757.874      2066.929      90       =Designator                               
+U1         LIS2DH12                                                              BottomLayer STM_LGA12_2x2          -836.614      2657.480      270      =Description                              
+U2         "Encryption Authentication with 72b SN, SHA-256, AES-128"             BottomLayer SOIC_N_8               -787.402      3051.181      315      =Description                              
+R24        RESISTOR                                                              BottomLayer R0603_N                -2234.252     1220.468      315      ""                                        
+R23        RESISTOR                                                              BottomLayer R0603_N                -2096.454     1161.414      0        ""                                        
+R22        RESISTOR                                                              BottomLayer R0603_N                -1791.335     1476.375      0        ""                                        
+R17        RESISTOR                                                              BottomLayer R0603_N                -334.649      1968.501      270      ""                                        
+R12        RESISTOR                                                              BottomLayer R0603_N                -393.698      1968.507      90       ""                                        
+R11        RESISTOR                                                              BottomLayer R0603_N                -2047.247     2125.988      180      ""                                        
+R10        RESISTOR                                                              BottomLayer R0603_N                -787.402      2854.326      315      ""                                        
+R9         RESISTOR                                                              BottomLayer R0603_N                -787.402      2746.058      315      ""                                        
+R3         RESISTOR                                                              BottomLayer R0603_N                -935.036      2578.743      90       ""                                        
+R2         RESISTOR                                                              BottomLayer R0603_N                -1053.147     2578.743      90       ""                                        
+P6         "Receptacle 3x2"                                                      TopLayer    RCPT2X3                2213.780      2668.898      90       ""                                        
+D11        "Default 0805 Red LED"                                                BottomLayer LED_0805_RD            -2293.307     1171.260      135      =Description                              
+D12        "Default 0805 Green LED"                                              BottomLayer LED_0805_GR            -2106.299     1092.520      180      =Description                              
+C17        CAP_CERAMIC                                                           BottomLayer C0805_N                -1614.173     1210.630      90       "Capacitor Ceramic"                       
+C16        CAP_CERAMIC                                                           BottomLayer C0805_N                -1614.173     1368.110      270      "Capacitor Ceramic"                       
+C21        CAP_CERAMIC                                                           BottomLayer C0603_N                -915.351      2185.036      180      "Capacitor Ceramic"                       
+C20        CAP_CERAMIC                                                           BottomLayer C0603_N                -915.351      1948.815      180      "Capacitor Ceramic"                       
+C19        CAP_CERAMIC                                                           BottomLayer C0603_N                -757.871      2185.036      180      "Capacitor Ceramic"                       
+C18        CAP_CERAMIC                                                           BottomLayer C0603_N                -757.871      1948.815      180      "Capacitor Ceramic"                       
+C14        CAP_CERAMIC                                                           BottomLayer C0805_N                -2057.087     2401.575      180      "Capacitor Ceramic"                       
+C13        ""                                                                    BottomLayer C0603_N                -2066.932     2332.680      0        "Capacitor Ceramic"                       
+C4         ""                                                                    BottomLayer C0603_N                344.485       2185.043      0        "Capacitor Ceramic"                       
+C2         ""                                                                    BottomLayer C0603_N                -836.617      2568.901      0        "Capacitor Ceramic"                       

@@ -24,6 +24,14 @@ Test fit of the badge with the first protoype of the [GameOn](https://github.com
 
 ## REV 02
 Upgraded the micro:bit connector to V2 shape.
-Currently under test, this board has the final shape for the badge and has a green soldermask with black silkscreen.
+This board has the final shape for the badge and has a green soldermask with black silkscreen.
 
 ![Badge 02 Close up](media/Badge_02_Closeup.jpg)
+
+![Badge 02 Close up](media/Badge_02_Front.jpg)
+
+![Badge 02 Close up](media/Badge_02_Back.jpg)
+
+
+## REV 03
+The production version of the badge with improvements in the BadgeLink circuit and a change in the LCD backlight button operation. Now the slide switch will either turn the display backlight ON or render it's control to the interrupt pin from the accelerometer allowing for wakeup based on movement for increased battery savings.
