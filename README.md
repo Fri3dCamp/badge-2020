@@ -1,6 +1,6 @@
 # Fri3d Badge 2020
 
-This repository contains the hardware design of the [Fri3d Camp](https://fri3d.be/) badge for 2020 / 2022.
+This repository contains the hardware design of the [Fri3d Camp](https://fri3d.be/) badge for 2020 / 2022. The project progress can be followed on our [Hackaday.io](https://hackaday.io/project/169741-fri3d-2022-badge) page.
 
 ## Blockdiagram
 
@@ -35,3 +35,10 @@ This board has the final shape for the badge and has a green soldermask with bla
 
 ## REV 03
 The production version of the badge with improvements in the BadgeLink circuit and a change in the LCD backlight button operation. Now the slide switch will either turn the display backlight ON or render it's control to the interrupt pin from the accelerometer allowing for wakeup based on movement for increased battery savings.
+
+## Documentation
+In de "media" folder we've added the small infosheet leaflet that's included with the badge.
+
+![Badge 03 info front](media/Badge_02_Info_front.png)
+
+![Badge 03 info rear](media/Badge_02_Info_rear.png)
