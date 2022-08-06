@@ -11,13 +11,9 @@ class Fri3d:
         self._touch = None
         self._display = None
         self._pixels = NeoPixel(Pin(pinout.neopixels, Pin.OUT), 5)
-        self._led = Pin(pinout.debug_led, Pin.OUT)
 
     def pixels(self):
         return self._pixels
-
-    def led(self):
-        return self._led
 
     def buzzer(self):
         if not self._buzzer:
@@ -44,7 +40,7 @@ class Fri3d:
     def display(self):
         if not self._display:
             import st7789
-            display = st7789.ST7789(
+            self._display = st7789.ST7789(
                 SPI(2, baudrate=40000000, polarity=1),
                 240,
                 240,
@@ -58,8 +54,8 @@ class Fri3d:
                 options=0,
                 buffer_size=0)
 
-            display.init()
-            display.jpg(f'/jpg/logo.jpg', 0, 0, st7789.FAST)
+            self._display.init()
+            self._display.jpg(f'/jpg/logo.jpg', 0, 0, st7789.FAST)
 
         return self._display
 
