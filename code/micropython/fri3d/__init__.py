@@ -1,58 +1,67 @@
-import gc
-
-from machine import TouchPad, Pin, SPI
+from machine import Pin, SPI
 from neopixel import NeoPixel
-from gui.core.nanogui import refresh
 
 import fri3d.pinout
-from fri3d.buttons import Button
-from fri3d.buzzer import Buzzer
 
-import st7789
 
-# pixels
-pixels = NeoPixel(Pin(pinout.neopixels, Pin.OUT), 5)
+class Fri3d:
+    def __init__(self):
+        self._buzzer = None
+        self._button = None
+        self._touch = None
+        self._display = None
+        self._pixels = NeoPixel(Pin(pinout.neopixels, Pin.OUT), 5)
+        self._led = Pin(pinout.debug_led, Pin.OUT)
 
-# led
-led = Pin(pinout.debug_led, Pin.OUT)
+    def pixels(self):
+        return self._pixels
 
-# button
-button = Button(pinout.button)
+    def led(self):
+        return self._led
 
-# buzzer
-buzzer = Buzzer(pinout.buzzer)
+    def buzzer(self):
+        if not self._buzzer:
+            from fri3d.buzzer import Buzzer
+            self._buzzer = Buzzer(pinout.buzzer)
 
-# touch
-touch = (TouchPad(Pin(x)) for x in pinout.touch)
-for t in touch:
-    t.config(300)
+        return self._buzzer
 
-# display
-# rotation = 0
-# madctl = 0x00 ()
-# inversion_mode(True)
-# color_order = st7789.RGB
-# for rotation 0 use offset(0, 0)
-# for rotation 1 use offset(0, 0)
-# for rotation 2 use offset(0, 0)
-# for rotation 3 use offset(0, 0)
-display = st7789.ST7789(
-        SPI(2, baudrate=40000000, polarity=1),
-        240,
-        240,
-        reset=Pin(32, Pin.OUT),
-        cs=Pin(5, Pin.OUT),
-        dc=Pin(33, Pin.OUT),
-        backlight=Pin(12, Pin.OUT),
-        color_order=st7789.RGB,
-        inversion=True,
-        rotation=0,
-        options=0,
-        buffer_size=0)
+    def button(self):
+        if not self._button:
+            from fri3d.buttons import Button
+            self._button = Button(pinout.button)
 
-display.init()
-display.jpg(f'/jpg/logo.jpg', 0, 0, st7789.SLOW)
+        return self._button
 
-# ir
-# blaster
-# accelero
+    def touch(self):
+        if not self._touch:
+            from machine import TouchPad
+            from fri3d.touch import NiftyTouch
+            self._touch = [NiftyTouch(TouchPad(Pin(x)), idx, self.pixels()) for idx, x in enumerate(pinout.touch)]
+
+        return self._touch
+
+    def display(self):
+        if not self._display:
+            import st7789
+            display = st7789.ST7789(
+                SPI(2, baudrate=40000000, polarity=1),
+                240,
+                240,
+                reset=Pin(32, Pin.OUT),
+                cs=Pin(5, Pin.OUT),
+                dc=Pin(33, Pin.OUT),
+                backlight=Pin(12, Pin.OUT),
+                color_order=st7789.RGB,
+                inversion=True,
+                rotation=0,
+                options=0,
+                buffer_size=0)
+
+            display.init()
+            display.jpg(f'/jpg/logo.jpg', 0, 0, st7789.FAST)
+
+        return self._display
+
+
+BADGE = Fri3d()
