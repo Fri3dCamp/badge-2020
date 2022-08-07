@@ -1,7 +1,9 @@
 import uasyncio as asyncio
-import demo.eye as eye
+from eye import Eye
 
+e = Eye()
 
 def run():
-    asyncio.create_task(eye.run())
+    e.auto()
+
     asyncio.get_event_loop().run_forever()

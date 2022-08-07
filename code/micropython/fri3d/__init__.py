@@ -6,11 +6,36 @@ import fri3d.pinout
 
 class Fri3d:
     def __init__(self):
+        self._i2c = None
+        self._accelero = None
         self._buzzer = None
         self._button = None
         self._touch = None
         self._display = None
         self._pixels = NeoPixel(Pin(pinout.neopixels, Pin.OUT), 5)
+
+        self._battery_charging = Pin(pinout.battery_charging, Pin.IN)
+        self._battery_level = Pin(pinout.battery_level, Pin.IN)
+
+    def is_charging(self):
+        return self._battery_charging.value()
+
+    def battery_level(self):
+        return self._battery_level.value()
+
+    def i2c(self):
+        if not self._i2c:
+            from machine import I2C
+            self._i2c = I2C(scl=Pin(pinout.i2c_scl), sda=Pin(pinout.i2c_sda))
+
+        return self._i2c
+
+    def accelero(self):
+        if not self._accelero:
+            from lib.lis2hh12 import LIS2HH12
+            self._accelero = LIS2HH12(self.i2c(), address=pinout.accelero_address)
+
+        return self._accelero
 
     def pixels(self):
         return self._pixels
@@ -52,7 +77,7 @@ class Fri3d:
                 inversion=True,
                 rotation=0,
                 options=0,
-                buffer_size=0)
+                buffer_size=240*240*2)
 
             self._display.init()
             self._display.jpg(f'/jpg/logo.jpg', 0, 0, st7789.FAST)
