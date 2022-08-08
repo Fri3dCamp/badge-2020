@@ -37,7 +37,7 @@ This board has the final shape for the badge and has a green soldermask with bla
 The production version of the badge with improvements in the BadgeLink circuit and a change in the LCD backlight button operation. Now the slide switch will either turn the display backlight ON or render it's control to the interrupt pin from the accelerometer allowing for wakeup based on movement for increased battery savings.
 
 ## Documentation
-In de "media" folder we've added the small infosheet leaflet that's included with the badge.
+In the "media" folder we've added the small infosheet leaflet that's included with the badge.
 
 ![Badge 03 info front](media/Info_front.png)
 
