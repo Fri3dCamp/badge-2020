@@ -39,6 +39,6 @@ The production version of the badge with improvements in the BadgeLink circuit a
 ## Documentation
 In de "media" folder we've added the small infosheet leaflet that's included with the badge.
 
-![Badge 03 info front](media/Badge_02_Info_front.png)
+![Badge 03 info front](media/Info_front.png)
 
-![Badge 03 info rear](media/Badge_02_Info_rear.png)
+![Badge 03 info rear](media/Info_rear.png)
