@@ -3,6 +3,8 @@ This firmware is compiled from https://github.com/Fri3dCamp/Badge2020_micropytho
 
 The .bin files are in the zip file.
 
+micropython-latest.zip should always point to the most recent version.
+
 ## Getting Started
 Figure out what the port of your badge is.
 
