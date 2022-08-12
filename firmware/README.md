@@ -1,3 +1,14 @@
+# Fri3dcamp badge programmeren
+
+Flash website: upload een nieuwe firmware zoals voor het bosspel:
+https://fri3d-flasher.vercel.app/#/
+
+Programeer website:
+https://fri3d.triggerwear.io/#/programming
+
+installeer apps:
+https://fri3d.triggerwear.io/#/apps
+
 # Fri3dcamp Micropython firmware
 This firmware is compiled from https://github.com/Fri3dCamp/Badge2020_micropython and has been included here for convenience.
 
